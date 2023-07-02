@@ -30,3 +30,14 @@
 .phoneNumber {
     margin-top: 8px;
 }
+
+@media only screen and (max-width: 480px) {
+    .contactRowWrapper {
+        flex-wrap: wrap;
+    }
+    .phoneSmsWrapper {
+        width: 100%;
+        justify-content: space-around;
+        border-top: 1px solid #ccc;
+    }
+}

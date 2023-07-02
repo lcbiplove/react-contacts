@@ -14,7 +14,7 @@ const colorIndex = [
 ]
 const sizeOptions = {
     small: "1.25em",
-    medium: "2em",
+    medium: "3em",
     large: "4em",
 }
 

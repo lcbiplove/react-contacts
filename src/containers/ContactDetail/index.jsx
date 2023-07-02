@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaTrash, FaEnvelope } from "react-icons/fa"
 import styles from './ContactDetail.module.css'
 import Loader from "../../components/Loader";
 import BackButton from "../../components/BackButton";
-import {NamedProfile, colorOptions, sizeOptions} from "../../components/NamedProfile";
+import {NamedProfile, sizeOptions} from "../../components/NamedProfile";
 
 const ContactDetail = () => {
     const params = useParams();
@@ -34,13 +34,13 @@ const ContactDetail = () => {
                 <div>
                     <BackButton />
                     <div className={styles.namesWrapper}>
-                        <NamedProfile name={users[0].name} size={sizeOptions.large} />
+                        <NamedProfile name={users[0].name} size={sizeOptions.medium} />
                         <div className={styles.nameTitle}>
                             {users[0].name}
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className={styles.contactEditWrapper}>
                     <button className={styles.editBtn}>Edit</button>
                     <FaTrash size={20} />
                 </div>
