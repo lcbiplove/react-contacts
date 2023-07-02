@@ -1,0 +1,48 @@
+.profileWrapper {
+    display: flex;
+    padding: 2.5em 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #eee;
+}
+.namesWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameTitle {
+    font-size: 2em;
+    margin-left: 1em;
+}
+button {
+    background: none;
+    border: 0;
+    font-size: 1em;
+    padding: 1em 2em;
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 2px 2px 4px #999;
+}
+.editBtn {
+    margin-right: 2em;
+}
+.lowerDetailsWrapper {
+    margin: 2em 0;
+}
+.detailCardWrapper {
+    padding: 1em;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 580px;
+    border-radius: 10px;
+}
+.detailList {
+    margin: 1.5em 0;
+}
+.telLink {
+    margin-left: 1em;
+}

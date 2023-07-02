@@ -1,0 +1,13 @@
+.logoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logoWrapper h2 {
+    margin-left: 0.5em;
+}

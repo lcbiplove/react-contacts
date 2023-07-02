@@ -1,0 +1,32 @@
+.contactRowWrapper {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    justify-content: space-between;
+    margin: 2.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    flex-wrap: nowrap;
+}
+.contactNameWrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    cursor: pointer;
+}
+.contactNameWrapper:hover {
+   background-color: #efefef;
+   border-radius: 2rem;
+}
+.phoneSmsWrapper {
+    display: flex;
+    padding: 20px;
+}
+.phoneIcon {
+    margin-right: 20px;
+}
+.phoneNumber {
+    margin-top: 8px;
+}

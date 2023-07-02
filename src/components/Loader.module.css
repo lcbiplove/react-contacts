@@ -1,0 +1,42 @@
+.loaderWrapper {
+    display: block;
+    color: #444;
+    margin: 2em auto;
+    background-color: #fff;
+}
+.round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.loader::after {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+.loader {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+    border-bottom: 3px solid #444;
+    border-left: 3px solid #444;
+    font-size: 5px;
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: loading 1s infinite linear;
+    text-indent: -9999em;
+}
+
+@keyframes loading {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
+  
