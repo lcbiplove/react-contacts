@@ -2,7 +2,7 @@ import {React, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ContactListCard from "../components/ContactListCard";
 import Loader from "../components/Loader";
-import NoResult from "./NoResult";
+import NoResult from "../components/NoResult";
 
 
 const SearchResult = () => {

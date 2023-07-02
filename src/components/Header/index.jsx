@@ -2,9 +2,9 @@ import React from "react";
 import { FaUserPlus } from "react-icons/fa"
 import { useNavigate } from "react-router-dom";
 import styles from './Header.module.css'
-import SearchInput from "./SearchInput";
+import SearchInput from "../SearchInput";
 
-const logo = require('../assets/logo.png');
+const logo = require('../../assets/logo.png');
 
 const Header = () => {
     var navigate = useNavigate()

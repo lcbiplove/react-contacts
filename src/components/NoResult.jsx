@@ -1,5 +1,4 @@
-import {React, useState} from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 
 const styles = {
     wrapper: {
@@ -14,21 +13,9 @@ const styles = {
 }
 
 const NoResult = () => {
-    const [value, setValue] = useState("");
-
-    const navigate = useNavigate();
-  
-    const handleSearch = (event) => {
-      event.preventDefault();
-      if (value) {
-        navigate("/search", { state: value, replace: true });
-      }
-    };
-  
-
     return (
         <div style={styles.wrapper}>
-            No Result. 
+            No Result
         </div>
     );
 };

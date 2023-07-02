@@ -2,7 +2,7 @@ import React from "react";
 import { FaSms, FaPhoneAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import styles from './ContactListCard.module.css';
-import { NamedProfile } from "./NamedProfile";
+import { NamedProfile } from "../NamedProfile";
 
 const ContactListCard = ({ name, phone, id }) => {
     const navigate = useNavigate();

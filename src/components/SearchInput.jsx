@@ -27,7 +27,6 @@ const SearchInput = () => {
       }
     };
   
-
     return (
         <form
             onSubmit={handleSearch}

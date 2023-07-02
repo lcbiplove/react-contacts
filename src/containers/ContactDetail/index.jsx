@@ -2,9 +2,9 @@ import { React, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { FaPhoneAlt, FaTrash, FaEnvelope } from "react-icons/fa"
 import styles from './ContactDetail.module.css'
-import Loader from "../components/Loader";
-import BackButton from "../components/BackButton";
-import {NamedProfile, colorOptions, sizeOptions} from "../components/NamedProfile";
+import Loader from "../../components/Loader";
+import BackButton from "../../components/BackButton";
+import {NamedProfile, colorOptions, sizeOptions} from "../../components/NamedProfile";
 
 const ContactDetail = () => {
     const params = useParams();
