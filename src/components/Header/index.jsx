@@ -7,7 +7,7 @@ import SearchInput from "../SearchInput";
 const logo = require('../../assets/logo.png');
 
 const Header = () => {
-    var navigate = useNavigate()
+    let navigate = useNavigate()
 
     return (
         <header>

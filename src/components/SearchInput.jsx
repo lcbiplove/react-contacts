@@ -32,6 +32,7 @@ const SearchInput = () => {
             onSubmit={handleSearch}
         >
             <input 
+                data-testid="searchInput"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
                 style={styles.searchInput} type="text" placeholder="Search" />

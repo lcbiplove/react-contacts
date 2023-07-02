@@ -42,7 +42,7 @@ const NamedProfile = ({name, color, size, ...extraProps}) => {
         }
     }
     
-    return  <div style={styles.nameCircle} {...extraProps}>{firstLetter}</div>
+    return  <div data-testid="namedProfile" style={styles.nameCircle} {...extraProps}>{firstLetter}</div>
 
 };
 
